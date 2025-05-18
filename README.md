@@ -11,7 +11,7 @@ pip install torch transformers numpy tqdm
 
 1. Download [meta-llama/Meta-Llama-3-8B · Hugging Face](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
 
-2. Clone AlphaEdit:[AlphaEdit](https://github.com/jianghoucheng/AlphaEdit.git)
+2. Clone AlphaEdit: [AlphaEdit](https://github.com/jianghoucheng/AlphaEdit.git)
 
 ## Quick Start
 
