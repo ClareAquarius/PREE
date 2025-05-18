@@ -11,7 +11,7 @@ pip install torch transformers numpy tqdm
 
 1. Download [meta-llama/Meta-Llama-3-8B · Hugging Face](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
 
-2. Clone AlphaEdit:[git clone](https://github.com/jianghoucheng/AlphaEdit.git)
+2. Clone AlphaEdit:[AlphaEdit](https://github.com/jianghoucheng/AlphaEdit.git)
 
 ## Quick Start
 
@@ -37,11 +37,11 @@ pip install torch transformers numpy tqdm
    cp ./datasets/train_data.json ./AlphaEdit/dsets/
    ```
 
-   2. Add tarin_data in DS_DICT in AlphaEdit/experiments/evaluate.py
+   2. Add tarin_data in DS_DICT in AlphaEdit/experiments/evaluate.py and add TrainDataset
    ```python
    DS_DICT = {
       # ... existing entries
-      'train_data': {'path': 'dsets/train_data.json'}
+      'train_data': (TrainDataset, compute_rewrite_quality_counterfact)
    }
    ```
 
