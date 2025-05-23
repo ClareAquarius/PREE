@@ -1,3 +1,8 @@
+Code for [PREE: Towards Harmless and Adaptive Fingerprint Editing in Large Language Models via Knowledge Prefix Enhancement]
+
+![alt text](image/frame_work.png)
+*Figure: This is the overall architecture of our PREE method.*
+
 ## Requirements:
 
 ❗ **Hardware Requirement**:
